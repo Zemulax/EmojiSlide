@@ -1,0 +1,76 @@
+/** .grid {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: purple;
+    margin-left: 50px;
+    border: 5px purple;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.grid image {
+    width: 50px;
+    height: 50px;
+}
+
+.grid div {
+    background-repeat: no-repeat;
+    border-style: solid;
+    align-content: center;
+    height: 65px;
+    width: 65px;
+    border-radius: 20px;
+    color: grey
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: palevioletred;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+    color: purple;
+} **/
+
+body {
+    background: url("emojis/candy-crush-background-2.png") no-repeat fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#lives-el {
+    color: green;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: right;
+}
+
+#board {
+    width: 667px;
+    height: 700px;
+    background-color: grey;
+    border: 5px solid salmon;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    color: grey;
+    border-style: solid;
+    padding: 1px 1px 1px 1px;
+    align-items: center;
+    color: rebeccapurple;
+}
