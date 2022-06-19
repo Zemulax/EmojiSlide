@@ -35,12 +35,8 @@ function randomEmoji() {
 
 }
 
-function Plives() {
-    lives = 10
-}
-
 function LivesCount() { //check amount of lives and issue messages accordingly
-    if (score >= 10) {
+    if (score >= 120) {
         document.getElementById("score").innerText = "You Won!"
     } else if (lives == 5) {
         document.getElementById("lives-el").style.color = "yellowgreen"
@@ -57,7 +53,7 @@ function LivesCount() { //check amount of lives and issue messages accordingly
 }
 
 function stopGame() {
-    if (lives == 0 || score >= 10) {
+    if (lives == 0 || score >= 120) {
         return
     }
 }

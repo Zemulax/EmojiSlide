@@ -48,14 +48,14 @@ body {
 
 #lives-el {
     color: green;
-    font-size: 30px;
+    font-size: 20px;
     font-family: fantasy;
     text-align: right;
 }
 
 #board {
-    width: 667px;
-    height: 700px;
+    width: 512px;
+    height: 550px;
     background-color: grey;
     border: 5px solid salmon;
     border-radius: 10px;
@@ -65,8 +65,8 @@ body {
 }
 
 #board img {
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     border-radius: 5px;
     color: grey;
     border-style: solid;
